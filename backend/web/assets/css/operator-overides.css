@@ -1,0 +1,52 @@
+/* CSS for Client End */
+
+body.operator .business-heading {
+    padding: 20px 30px 15px 30px;
+}
+
+body.operator .business-logo {
+    display: inline-block;
+    margin-right: 18px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+body.operator .business-logo > img {
+    width: auto;
+    height: 76px;
+}
+
+body.operator .business-details {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body.operator .business-actions {
+    float: right;
+    margin-right: 22px;
+    position: relative;
+    top: -2px;
+}
+
+body.operator .business-heading > .panel-title {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+body.operator .panel-group.panel-rack .panel-collapse .panel-body {
+    border-top: 1px solid #eaeaea !important;
+    padding: 30px;
+}
+
+body.operator .business-items label.control-label {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+body.operator .panel.inactive{
+    background-color: #fff3f3;
+}
+body.operator .panel.inactive .panel-heading{
+    background-color: #ffe2e2;
+}

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ks-ecom WebFont</title>
+    <link rel="stylesheet" type="text/css" href="ksecom.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="ks-ecom-"]:before, [class*=" ks-ecom-"]:before, [class^="ks-ecom-"]:after, [class*=" ks-ecom-"]:after {
+        font-family: ks-ecom;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"ks-ecom";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"ks-ecom";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.ks-ecom.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/ks-ecom.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;ks-ecom-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;ks-ecom-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon ks-ecom-2441"></div>
+		<div class="class-name">.ks-ecom-2441</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/24-hours-symbol_45867">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-2442"></div>
+		<div class="class-name">.ks-ecom-2442</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/24-hours-delivery_46016">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-accesories1"></div>
+		<div class="class-name">.ks-ecom-accesories1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/open-wallet_71790">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-accessory16"></div>
+		<div class="class-name">.ks-ecom-accessory16</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_87291">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-accessory97"></div>
+		<div class="class-name">.ks-ecom-accessory97</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/card-wallet_24884">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-bag"></div>
+		<div class="class-name">.ks-ecom-bag</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-bag_8109">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-bags"></div>
+		<div class="class-name">.ks-ecom-bags</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/reusable-shopping-bags_66887">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-bitcoin48"></div>
+		<div class="class-name">.ks-ecom-bitcoin48</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/bitcoin-pocket-or-wallet_37099">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-boxes2"></div>
+		<div class="class-name">.ks-ecom-boxes2</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/boxes-piles-stored-inside-a-garage-for-delivery_46028">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-buy10"></div>
+		<div class="class-name">.ks-ecom-buy10</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/add-to-cart_1393">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-buy11"></div>
+		<div class="class-name">.ks-ecom-buy11</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/credit-card-payment_1785">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-call36"></div>
+		<div class="class-name">.ks-ecom-call36</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/call-center-service-for-information_45913">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-cart10"></div>
+		<div class="class-name">.ks-ecom-cart10</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart_66867">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-cart3"></div>
+		<div class="class-name">.ks-ecom-cart3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/cart-of-ecommerce_14674">Designerz Base</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-check23"></div>
+		<div class="class-name">.ks-ecom-check23</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/approved-signal_20690">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-clipboard52"></div>
+		<div class="class-name">.ks-ecom-clipboard52</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/clipboard-verification-symbol_46083">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin11"></div>
+		<div class="class-name">.ks-ecom-coin11</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coin-of-dollar_33417">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin12"></div>
+		<div class="class-name">.ks-ecom-coin12</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coin-of-dollar_33610">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin16"></div>
+		<div class="class-name">.ks-ecom-coin16</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coin-stack_61483">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin3"></div>
+		<div class="class-name">.ks-ecom-coin3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/piggy-bank-with-dollar-coins_20687">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin55"></div>
+		<div class="class-name">.ks-ecom-coin55</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/purse_97347">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coin9"></div>
+		<div class="class-name">.ks-ecom-coin9</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coin-purse_31758">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coins15"></div>
+		<div class="class-name">.ks-ecom-coins15</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coins-money-stack_33963">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-coins17"></div>
+		<div class="class-name">.ks-ecom-coins17</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coins-stacks-money_34409">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-commerce"></div>
+		<div class="class-name">.ks-ecom-commerce</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/card-wallet_67026">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-commerce1"></div>
+		<div class="class-name">.ks-ecom-commerce1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/payment-methods_14281">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-commercial15"></div>
+		<div class="class-name">.ks-ecom-commercial15</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/commercial-delivery-symbol-of-a-list-on-clipboard-on-a-box-package_45951">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-credit-card5"></div>
+		<div class="class-name">.ks-ecom-credit-card5</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/credit-card-of-rounded_14784">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-credit-card8"></div>
+		<div class="class-name">.ks-ecom-credit-card8</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/black-and-white-credit-cards_62877">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-credit2"></div>
+		<div class="class-name">.ks-ecom-credit2</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/credit-cards_67079">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-currency27"></div>
+		<div class="class-name">.ks-ecom-currency27</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/ladies-purse_79927">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-diamond25"></div>
+		<div class="class-name">.ks-ecom-diamond25</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/diamond-ring_31998">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-discount3"></div>
+		<div class="class-name">.ks-ecom-discount3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/discount-sticker-with-percentage_61521">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-discount4"></div>
+		<div class="class-name">.ks-ecom-discount4</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/discount-tag_66878">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-dollar185"></div>
+		<div class="class-name">.ks-ecom-dollar185</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/american-dollar-symbol_8817">Scott de Jonge</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-fashion1"></div>
+		<div class="class-name">.ks-ecom-fashion1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/leather-wallet_71255">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-female81"></div>
+		<div class="class-name">.ks-ecom-female81</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/female-wallet-black-shape_26236">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-feminine8"></div>
+		<div class="class-name">.ks-ecom-feminine8</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/feminine-fashion-handbag-for-money_60872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-google46"></div>
+		<div class="class-name">.ks-ecom-google46</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/google-wallet-pay-logo_39125">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-hand132"></div>
+		<div class="class-name">.ks-ecom-hand132</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/hand-holding-money-bills_49232">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-heart187"></div>
+		<div class="class-name">.ks-ecom-heart187</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/heart-wallet_33131">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-identification42"></div>
+		<div class="class-name">.ks-ecom-identification42</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/presentation-card-on-a-wallet_82215">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-label49"></div>
+		<div class="class-name">.ks-ecom-label49</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/tag_24199">Icomoon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-man251"></div>
+		<div class="class-name">.ks-ecom-man251</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/man-with-stacked-boxes-on-shopping-cart_46596">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-marker20"></div>
+		<div class="class-name">.ks-ecom-marker20</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart_2772">Stephen Hutchings</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-market1"></div>
+		<div class="class-name">.ks-ecom-market1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart_68605">Puppets</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-menu62"></div>
+		<div class="class-name">.ks-ecom-menu62</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/line-menu_9916">Amit Jakhu</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money13"></div>
+		<div class="class-name">.ks-ecom-money13</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/money-stacks-of-coins_31028">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money145"></div>
+		<div class="class-name">.ks-ecom-money145</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/elegant-wallet_66486">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money165"></div>
+		<div class="class-name">.ks-ecom-money165</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-money_68899">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money286"></div>
+		<div class="class-name">.ks-ecom-money286</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-and-three-dollar-bills_20931">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money296"></div>
+		<div class="class-name">.ks-ecom-money296</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/man-wallet_20974">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money313"></div>
+		<div class="class-name">.ks-ecom-money313</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-dollars_21064">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money361"></div>
+		<div class="class-name">.ks-ecom-money361</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/euro-wallet_21243">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money367"></div>
+		<div class="class-name">.ks-ecom-money367</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/british-pound-wallet_21282">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money407"></div>
+		<div class="class-name">.ks-ecom-money407</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/closed-wallet_82540">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money412"></div>
+		<div class="class-name">.ks-ecom-money412</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-card-sticking-out_83203">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money498"></div>
+		<div class="class-name">.ks-ecom-money498</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_98655">HevnGrafix</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money499"></div>
+		<div class="class-name">.ks-ecom-money499</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_98661">HevnGrafix</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money502"></div>
+		<div class="class-name">.ks-ecom-money502</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_98903">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-money510"></div>
+		<div class="class-name">.ks-ecom-money510</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_101370">Revicon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-news29"></div>
+		<div class="class-name">.ks-ecom-news29</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/newspaper_4442">Designmodo</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-onlinestore"></div>
+		<div class="class-name">.ks-ecom-onlinestore</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-package8"></div>
+		<div class="class-name">.ks-ecom-package8</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/package-for-delivery_45914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-piggy9"></div>
+		<div class="class-name">.ks-ecom-piggy9</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/piggy-bank-saving-tool-side-view-with-dollars-sign_46705">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-precious"></div>
+		<div class="class-name">.ks-ecom-precious</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/precious-stone-shape-from-side-view-for-jewelery_46733">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse1"></div>
+		<div class="class-name">.ks-ecom-purse1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_23240">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse10"></div>
+		<div class="class-name">.ks-ecom-purse10</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-purse-icon_69378">Bogdan Rosu</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse12"></div>
+		<div class="class-name">.ks-ecom-purse12</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-bill_72803">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse13"></div>
+		<div class="class-name">.ks-ecom-purse13</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-full-of-money_77231">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse14"></div>
+		<div class="class-name">.ks-ecom-purse14</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_86121">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-purse16"></div>
+		<div class="class-name">.ks-ecom-purse16</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_22126">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-reading23"></div>
+		<div class="class-name">.ks-ecom-reading23</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/book_3516">Daniel Bruce</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-review5"></div>
+		<div class="class-name">.ks-ecom-review5</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/magazine_1885">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shop14"></div>
+		<div class="class-name">.ks-ecom-shop14</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/label_71071">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shop3"></div>
+		<div class="class-name">.ks-ecom-shop3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shop-store-frontal-building_33558">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopper85"></div>
+		<div class="class-name">.ks-ecom-shopper85</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/credit-cards_24834">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping-cart12"></div>
+		<div class="class-name">.ks-ecom-shopping-cart12</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-store-cart_9278">Zurb</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping-cart13"></div>
+		<div class="class-name">.ks-ecom-shopping-cart13</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/online-shopping-cart_70369">Anton Saputro</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping-cart8"></div>
+		<div class="class-name">.ks-ecom-shopping-cart8</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/online-store-shopping-cart_69986">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping111"></div>
+		<div class="class-name">.ks-ecom-shopping111</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart-empty-side-view_34568">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping122"></div>
+		<div class="class-name">.ks-ecom-shopping122</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart-of-checkered-design_34627">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping145"></div>
+		<div class="class-name">.ks-ecom-shopping145</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart-with-product-inside_43777">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping159"></div>
+		<div class="class-name">.ks-ecom-shopping159</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-support-online_44357">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping187"></div>
+		<div class="class-name">.ks-ecom-shopping187</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-bags-black-couple_53144">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shopping82"></div>
+		<div class="class-name">.ks-ecom-shopping82</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-basket_33510">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-shoppingbag"></div>
+		<div class="class-name">.ks-ecom-shoppingbag</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-supermarket68"></div>
+		<div class="class-name">.ks-ecom-supermarket68</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart_23258">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-supermarket70"></div>
+		<div class="class-name">.ks-ecom-supermarket70</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/shopping-cart_24126">Icomoon</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-tag79"></div>
+		<div class="class-name">.ks-ecom-tag79</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/price-ticket_70951">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-toilet"></div>
+		<div class="class-name">.ks-ecom-toilet</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/toilet-paper_70078">Pavel Kozlov</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet1"></div>
+		<div class="class-name">.ks-ecom-wallet1</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-zipper_4448">Designmodo</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet11"></div>
+		<div class="class-name">.ks-ecom-wallet11</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_31368">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet15"></div>
+		<div class="class-name">.ks-ecom-wallet15</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_46824">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet17"></div>
+		<div class="class-name">.ks-ecom-wallet17</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_48659">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet2"></div>
+		<div class="class-name">.ks-ecom-wallet2</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/women-wallet_69893">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet21"></div>
+		<div class="class-name">.ks-ecom-wallet21</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-bills-outlined-symbol_52101">Robin Kylander</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet23"></div>
+		<div class="class-name">.ks-ecom-wallet23</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-outlined-circular-button-interface-symbol_52960">Sebastien Gabriel</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet24"></div>
+		<div class="class-name">.ks-ecom-wallet24</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-outlined-tool_53936">GraphicsBay</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet25"></div>
+		<div class="class-name">.ks-ecom-wallet25</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-black-symbol_54876">Catalin Fertu</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet26"></div>
+		<div class="class-name">.ks-ecom-wallet26</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-outline_54896">Catalin Fertu</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet28"></div>
+		<div class="class-name">.ks-ecom-wallet28</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-filled-commercial-tool_56989">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet3"></div>
+		<div class="class-name">.ks-ecom-wallet3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/closed-wallet_13857">Vectorgraphit</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet31"></div>
+		<div class="class-name">.ks-ecom-wallet31</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet_57605">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet32"></div>
+		<div class="class-name">.ks-ecom-wallet32</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-outline_60289">Taras Shypka</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet33"></div>
+		<div class="class-name">.ks-ecom-wallet33</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-filled-money-tool_60484">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet34"></div>
+		<div class="class-name">.ks-ecom-wallet34</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/leather-wallet_66739">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet35"></div>
+		<div class="class-name">.ks-ecom-wallet35</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-with-zipper_66743">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet36"></div>
+		<div class="class-name">.ks-ecom-wallet36</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/wallet-for-women_66800">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet38"></div>
+		<div class="class-name">.ks-ecom-wallet38</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/money-purse_70704">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet4"></div>
+		<div class="class-name">.ks-ecom-wallet4</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/invesment-purse_73104">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet40"></div>
+		<div class="class-name">.ks-ecom-wallet40</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/coins-wallet_15940">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet41"></div>
+		<div class="class-name">.ks-ecom-wallet41</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/open-male-purse_16844">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet43"></div>
+		<div class="class-name">.ks-ecom-wallet43</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/purse_88744">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallet5"></div>
+		<div class="class-name">.ks-ecom-wallet5</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/women-puser_80914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallets"></div>
+		<div class="class-name">.ks-ecom-wallets</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/open-wallet-with-papers-inside_16961">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallets2"></div>
+		<div class="class-name">.ks-ecom-wallets2</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/white-empty-wallet_18677">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon ks-ecom-wallets3"></div>
+		<div class="class-name">.ks-ecom-wallets3</div><div class="author-name">Author: <a href="http://www.ks-ecom.com/free-icon/closed-wallet_78309">Nice and Serious</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.ks-ecom.com">ks-ecom.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>, <a href="http://www.finest.graphics">Designerz Base</a>, <a href="http://www.simpleicon.com">SimpleIcon</a>, <a href="http://www.scottdejonge.com">Scott de Jonge</a>, <a href="http://www.icomoon.io">Icomoon</a>, <a href="http://www.typicons.com">Stephen Hutchings</a>, <a href="http://puppetscientists.com">Puppets</a>, <a href="http://www.amitjakhu.com">Amit Jakhu</a>, <a href="http://">HevnGrafix</a>, <a href="http://">Revicon</a>, <a href="http://www.designmodo.com">Designmodo</a>, <a href="http://"></a>, <a href="http://www.rivolta.es">Situ Herrera</a>, <a href="http://www.bogdanrosu.com">Bogdan Rosu</a>, <a href="http://www.danielbruce.se">Daniel Bruce</a>, <a href="http://www.zurb.com">Zurb</a>, <a href="http://www.antonps.com">Anton Saputro</a>, <a href="http://www.behance.net/Bart9339">Pavel Kozlov</a>, <a href="http://superstoked.se">Robin Kylander</a>, <a href="http://sebastien-gabriel.com">Sebastien Gabriel</a>, <a href="http://graphicsbay.com">GraphicsBay</a>, <a href="http://catalinfertu.com">Catalin Fertu</a>, <a href="http://www.meanicons.com">Vectorgraphit</a>, <a href="http://dribbble.com/Bugsster">Taras Shypka</a>, <a href="http://niceandserious.com">Nice and Serious</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.ks-ecom.com&quot;&gt;ks-ecom.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;, &lt;a href=&quot;http://www.finest.graphics&quot;&gt;Designerz Base&lt;/a&gt;, &lt;a href=&quot;http://www.simpleicon.com&quot;&gt;SimpleIcon&lt;/a&gt;, &lt;a href=&quot;http://www.scottdejonge.com&quot;&gt;Scott de Jonge&lt;/a&gt;, &lt;a href=&quot;http://www.icomoon.io&quot;&gt;Icomoon&lt;/a&gt;, &lt;a href=&quot;http://www.typicons.com&quot;&gt;Stephen Hutchings&lt;/a&gt;, &lt;a href=&quot;http://puppetscientists.com&quot;&gt;Puppets&lt;/a&gt;, &lt;a href=&quot;http://www.amitjakhu.com&quot;&gt;Amit Jakhu&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;HevnGrafix&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;Revicon&lt;/a&gt;, &lt;a href=&quot;http://www.designmodo.com&quot;&gt;Designmodo&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;&lt;/a&gt;, &lt;a href=&quot;http://www.rivolta.es&quot;&gt;Situ Herrera&lt;/a&gt;, &lt;a href=&quot;http://www.bogdanrosu.com&quot;&gt;Bogdan Rosu&lt;/a&gt;, &lt;a href=&quot;http://www.danielbruce.se&quot;&gt;Daniel Bruce&lt;/a&gt;, &lt;a href=&quot;http://www.zurb.com&quot;&gt;Zurb&lt;/a&gt;, &lt;a href=&quot;http://www.antonps.com&quot;&gt;Anton Saputro&lt;/a&gt;, &lt;a href=&quot;http://www.behance.net/Bart9339&quot;&gt;Pavel Kozlov&lt;/a&gt;, &lt;a href=&quot;http://superstoked.se&quot;&gt;Robin Kylander&lt;/a&gt;, &lt;a href=&quot;http://sebastien-gabriel.com&quot;&gt;Sebastien Gabriel&lt;/a&gt;, &lt;a href=&quot;http://graphicsbay.com&quot;&gt;GraphicsBay&lt;/a&gt;, &lt;a href=&quot;http://catalinfertu.com&quot;&gt;Catalin Fertu&lt;/a&gt;, &lt;a href=&quot;http://www.meanicons.com&quot;&gt;Vectorgraphit&lt;/a&gt;, &lt;a href=&quot;http://dribbble.com/Bugsster&quot;&gt;Taras Shypka&lt;/a&gt;, &lt;a href=&quot;http://niceandserious.com&quot;&gt;Nice and Serious&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;ks-ecom-2441&quot;&gt;&lt;/i&gt; <i class="ks-ecom-2441"></i></p><p>&lt;i class=&quot;ks-ecom-2442&quot;&gt;&lt;/i&gt; <i class="ks-ecom-2442"></i></p><p>&lt;i class=&quot;ks-ecom-accesories1&quot;&gt;&lt;/i&gt; <i class="ks-ecom-accesories1"></i></p><p>&lt;i class=&quot;ks-ecom-accessory16&quot;&gt;&lt;/i&gt; <i class="ks-ecom-accessory16"></i></p><p>&lt;i class=&quot;ks-ecom-accessory97&quot;&gt;&lt;/i&gt; <i class="ks-ecom-accessory97"></i></p></div><div class="image"><p>&lt;span class=&quot;ks-ecom-bag&quot;&gt;&lt;/span&gt; <span class="ks-ecom-bag"></span></p><p>&lt;span class=&quot;ks-ecom-bags&quot;&gt;&lt;/span&gt; <span class="ks-ecom-bags"></span></p><p>&lt;span class=&quot;ks-ecom-bitcoin48&quot;&gt;&lt;/span&gt; <span class="ks-ecom-bitcoin48"></span></p><p>&lt;span class=&quot;ks-ecom-boxes2&quot;&gt;&lt;/span&gt; <span class="ks-ecom-boxes2"></span></p><p>&lt;span class=&quot;ks-ecom-buy10&quot;&gt;&lt;/span&gt; <span class="ks-ecom-buy10"></span></p></div><div class="image"><p>&lt;span class=&quot;ks-ecom-buy11&quot;&gt;&lt;/span&gt; <span class="ks-ecom-buy11"></span></p><p>&lt;i class=&quot;ks-ecom-call36&quot;&gt;&lt;/i&gt; <i class="ks-ecom-call36"></i></p><p>&lt;i class=&quot;ks-ecom-cart10&quot;&gt;&lt;/i&gt; <i class="ks-ecom-cart10"></i></p><p>&lt;i class=&quot;ks-ecom-cart3&quot;&gt;&lt;/i&gt; <i class="ks-ecom-cart3"></i></p><p>&lt;i class=&quot;ks-ecom-check23&quot;&gt;&lt;/i&gt; <i class="ks-ecom-check23"></i></p></div><div class="image"><p>&lt;span class=&quot;ks-ecom-clipboard52&quot;&gt;&lt;/span&gt; <span class="ks-ecom-clipboard52"></span></p><p>&lt;span class=&quot;ks-ecom-coin11&quot;&gt;&lt;/span&gt; <span class="ks-ecom-coin11"></span></p><p>&lt;span class=&quot;ks-ecom-coin12&quot;&gt;&lt;/span&gt; <span class="ks-ecom-coin12"></span></p><p>&lt;span class=&quot;ks-ecom-coin16&quot;&gt;&lt;/span&gt; <span class="ks-ecom-coin16"></span></p><p>&lt;span class=&quot;ks-ecom-coin3&quot;&gt;&lt;/span&gt; <span class="ks-ecom-coin3"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.ks-ecom.com">ks-ecom.com</a>
+    </div>
+</div>
+	</body>
+</html>

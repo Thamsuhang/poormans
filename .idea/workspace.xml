@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86626be1-d514-4b89-a253-8128e4c7b8f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/InsertedDirectoryCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/UploadFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/UploadFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/DirectoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/DirectoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cd8af37ac.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cdad3a8ef.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cdb3493e8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cdb6d7b3d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cdbd8aee8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cdffa466f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce0f66dcf.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce0fad463.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce0fc7556.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce0fdd479.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce2177a7b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce2d8c45e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce53e340c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce5e46b42.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce828e78a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ce8c8aa91.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33cea419594.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ceae0ce22.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33ceb8ecea1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33d16df2c3c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb13dbb05.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb317f587.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb33d0f88.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb8a82127.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb9b084ec.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e33eb9c6dd57.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cbfc9fe3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364ccc531e3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364ccecd5b5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cd0d413e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cd22dfa8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cd273b3d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfa1de7e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfaed3bd.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfd5bf2f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfd801c0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfd919b4.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfd9a872.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364cfe20cc7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364d023c8fc.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364d064e50d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364da6e508c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364dab4c302.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364db3c05e8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e364e1e6696a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e3650b960fef.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e3651067d89f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e36510d955bc.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e36513650885.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5e3651c9994bd.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/directory/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/directory/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/directory/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/directory/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/directory/single/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/directory/single/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/directory/single/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/directory/single/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/websettings/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/websettings/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/css/overides.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/css/overides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/10011-Creative-0007-Front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1579857098do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1579857134do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1579857202do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1579857698do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/157985782544.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/157985796711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/157985796733.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/157995910517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1580039445do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/1580039518l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/158037651084.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/158044846384.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/158044846475.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/assets/images/uploads/201702041486156495wayne.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/HelperDirectory.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/HelperDirectory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/HelperDirectoryCategories.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/HelperDirectoryCategories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/HelperSignUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/HelperSignUp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/HelperUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/HelperUpload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/Directory.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Directory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SignupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SignupController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340d8951558.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340dee90fce.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e0d59eba.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e29aa85f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e31e1b6e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e58777bf.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e599aad0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e8496c2b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e8c78af7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340e8cb9fe3.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340ed6f3685.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340ed9b3a3d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340eee8ab09.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340efc0ce21.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340efce72da.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340f171e2bd.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340f18187d8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340fa9cb613.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e340faad3891.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e34101829782.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3410205b79d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e341195cc53d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e34119711921.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e341357d5a66.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e341363bc78f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364cbfc9f89.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364cd12f26c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d0bd30a8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d0e78044.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d0f956e8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d1732eea.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d18e8ba8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d265aaf7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d2876c62.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d2e1dbd0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364d2f9716b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364f5c92b63.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364f5d8c4ed.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364f64309d5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e364f6d4d981.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3650c71879e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3650d26c724.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3650d850c7c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3650f963b4e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3651055521c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e365137f07c9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3651a1943d0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3651b2bba41.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3651fb7bcef.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3652012ab27.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e365207155ce.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e365216acb8a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e365262cec13.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3652dfea82f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5e3653b0a0c77.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/about/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/business/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/business/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/cards/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/cards/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/cards/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/cards/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/cards/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/categories/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/categories/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/categories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/contact/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/contact/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/signup/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/signup/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/signup/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/signup/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/css/overides.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/css/overides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/js/directory.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/js/directory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/assets/js/upload-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/assets/js/upload-button.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YpgXzJp6AIF2kUv9lcmKrcNSsR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86626be1-d514-4b89-a253-8128e4c7b8f2" name="Default Changelist" comment="" />
+      <created>1583644992011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583644992011</updated>
+      <workItem from="1583644993261" duration="4305000" />
+      <workItem from="1583655683306" duration="1594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Deployment" timestamp="1583646720209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1583646720209" />
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583645821324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583645821324" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1583655863077">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583655863077" />
+  </component>
+</project>
